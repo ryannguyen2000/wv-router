@@ -1,0 +1,37 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Tránh đẩy thư viện nặng lên mạng
+node_modules
+dist
+!packages/cli/dist/
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Môi trường (KHÔNG BAO GIỜ đẩy biến môi trường lên)
+.env
+.env.*
+!.env.example
+
+# Build outputs (Của Vite và TypeScript)
+build
+out
+.output
+.vercel/

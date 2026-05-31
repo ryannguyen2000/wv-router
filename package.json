@@ -1,6 +1,6 @@
 {
-  "name": "mini-app-router",
-  "version": "1.0.11",
+  "name": "@baodev/mini-app-router",
+  "version": "1.0.1",
   "type": "module",
   "description": "WEBVIEW ROUTER",
   "main": "dist/index.js",
